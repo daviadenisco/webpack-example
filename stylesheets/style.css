@@ -1,0 +1,173 @@
+/*
+**************
+JUMBOTRON
+**************
+*/
+
+.jumbotron {
+  /* background: url("https://tctechcrunch2011.files.wordpress.com/2015/04/codecode.jpg?w=738)") no-repeat center center; */
+  /* background: url("https://blog.syncano.io/content/images/2016/02/javascript-code.jpg") no-repeat center center; */
+  /* background: url("https://cdn-images-1.medium.com/max/1024/1*bcZz-qb_DNpvrNNwQBhQmQ.jpeg") no-repeat center center; */
+  background: url("https://cdn-images-1.medium.com/max/1600/1*8r6hvv5E-FOOdKOih4G7Hg.jpeg") no-repeat center center;
+  background-color: black;
+  background-size: 100%;
+  height: 150px;
+  opacity: 1;
+  color: black;
+  margin-bottom: 0;
+}
+
+/*
+**************
+BODY
+**************
+*/
+body {
+  background: black;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  /* font-weight: 500; */
+  line-height: 24px;
+}
+
+.inner {
+  padding-left: 30px;
+  padding-right: 70px;
+  border: solid 20px whiteSmoke;
+  background: WhiteSmoke;
+  margin: 0;
+}
+
+/*
+**************
+LINKS
+**************
+*/
+a {
+  color: black;
+}
+
+.card {
+  padding-top: 10px;
+  width: 80%;
+}
+nav .navbar navbar-light {
+  /* background: red; */
+}
+.tab-pane {
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*
+**************
+BUTTONS
+**************
+*/
+.btn btn-secondary btn-lg btn-block .btn btn-secondary btn-lg btn-block {
+  background-color: red;
+  color: black;
+}
+/*
+**************
+BROWSE
+**************
+*/
+#accordion {
+  width: 60%;
+}
+.edit {
+  float: right;
+}
+.U2 {
+  /* position: absolute; */
+  float: right;
+  border-style: solid;
+  border-width: 10px;
+  border-color: silver;
+  background: whiteSmoke;
+  color: rosyBrown;
+  width: 25%;
+}
+.box {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.card-body {
+  font-size: 16px;
+}
+.nav-tabs {
+  color: F6F6F6;
+}
+.tab-content {
+  background-color: WhiteSmoke;
+  color: black;
+  padding: 5px;
+}
+.nav-tabs > li.active > a {
+  color: black;
+  font-size: 18px;
+}
+.nav-tabs > li > a:hover{
+  background-color: white;
+  border: medium none;
+  border-radius: 0;
+  color: black;
+}
+#techtionary {
+  color: white;
+  padding-left: 25px;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-variant: normal;
+  text-shadow: 4px 4px black;
+  float: left;
+}
+.navLink {
+  float: right;
+  color: WhiteSmoke;
+  padding-right: 25px;
+}
+.btn-link {
+  color: black;
+  font-size: 16px;
+}
+.card-header {
+  background: white;
+  color: black;
+}
+#footer {
+  background: black;
+  color: white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+}
+#linkAddWord #sugUpdate{
+  color: rosyBrown;
+}
+#linkAddWord:hover #sugUpdate:hover{
+  color: black;
+}
+a #contact {
+  color: white;
+  text-decoration: none;
+}
+h5 {
+  font-size: 16px;
+}
+#home {
+  width: 75%;
+}
+.space {
+  height: 20px;
+  margin-bottom: 5%;
+}
